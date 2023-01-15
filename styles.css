@@ -18,18 +18,70 @@ ul {
     list-style: none;
     flex:auto;
     padding:0px;
-    justify-content: center;
+    margin-right:80px;
+    justify-content: flex-end;
 }
 
-.image {
+.image, .logo {
     display:flex;
-    justify-content: center;
+    justify-content: flex-end;
+    margin-right:70px;
     align-items: center;
     flex: auto;
     padding:10px;
 }
 
-a {
+a{
     text-decoration: none;
+    font-weight: lighter;
+    color: #F9FAF8
+}
+
+h1, .logo {
     color: #F9FAF8;
+    font-family: roboto;
+}
+
+.logo {
+    display:flex;
+    justify-content: flex-start;
+    margin-left:80px;
+}
+
+p {
+    font-family: roboto;
+    font-size:18px;
+    color:#E5E7EB;
+}
+
+.sign-up-info {
+    display: flex;
+    flex-direction: column;
+    padding-left:80px;
+    padding-top:80px;
+    padding-bottom:80px;
+    padding-right:0px;
+    width:375px;
+}
+
+button {
+    width:110px;
+    height:40px;
+    background-color: #3882F6;
+    color:white;
+    border-radius: 10px;
+    border: none;
+}
+
+p {
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+
+h1 {
+    margin: 0px;
+}
+
+.signupimage {
+    width:400px;
 }
