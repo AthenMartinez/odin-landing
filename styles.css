@@ -145,3 +145,47 @@ img {
     color:black;
     text-align: right;
 }
+
+.sec-four {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    height:50px;
+    padding: 20px 80px;
+    background-color: #3882F6;
+    margin:50px;
+    border-radius: 8px;
+}
+
+.cta, .cta-text {
+    width: auto;
+    font-size: 18px;
+    margin: 0px;
+    color:white;
+}
+
+.sub {
+    align-self: center;
+}
+
+.banner-sign-up {
+    border: 2px solid white;
+}
+
+.footer {
+    background-color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.copyright {
+    color:white;
+}
